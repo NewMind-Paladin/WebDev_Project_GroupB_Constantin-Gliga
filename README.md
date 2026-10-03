@@ -8,4 +8,5 @@ This project is a simple website for the winter trips agency. The homepage inclu
 
 - index.html - homepage
 - about.html - about page
+- contact.html - contact page
 
