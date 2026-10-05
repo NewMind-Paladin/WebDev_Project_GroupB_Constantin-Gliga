@@ -35,7 +35,6 @@ body {
     transform: translateY(-5px) scale(1.05);
 }
 
-/* Navigation links */
 .nav-links {
     display: flex;
     gap: 5px;
@@ -54,11 +53,6 @@ body {
     color: #0066cc;
 }
 
-/* Active page */
-.nav-links a.active {
-    background-color: #0066cc;
-    color: white;
-}
 
 .hero {
     position: relative;
@@ -97,9 +91,6 @@ body {
     z-index: 2;
 }
 
-/* =========================
-   MAIN TITLE
-   ========================= */
 
 .hero-content h1 {
     font-size: 64px;
@@ -111,10 +102,6 @@ body {
 }
 
 
-/* =========================
-   SUBTITLE
-   ========================= */
-
 .hero-content p {
     font-size: 22px;
     line-height: 1.5;
@@ -122,10 +109,6 @@ body {
     color: #e8f1f5;
 }
 
-
-/* =========================
-   BUTTON
-   ========================= */
 
 .hero-button {
     display: inline-block;
@@ -146,10 +129,6 @@ body {
 }
 
 
-/* =========================
-   BUTTON HOVER
-   ========================= */
-
 .hero-button:hover {
     background-color: #162330;
     color: white;
@@ -157,26 +136,6 @@ body {
     transform: translateY(-3px);
 }
 
-
-@media (max-width: 768px) {
-
-    .hero {
-        height: 450px;
-    }
-
-    .hero-content {
-        left: 7%;
-        right: 7%;
-    }
-
-    .hero-content h1 {
-        font-size: 42px;
-    }
-
-    .hero-content p {
-        font-size: 18px;
-    }
-}
 
 .stories {
     font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif; 
@@ -243,7 +202,6 @@ body {
     font-size: 14px;
 }
 
-/* Links */
 .footer-links,
 .footer-contact {
     display: flex;
