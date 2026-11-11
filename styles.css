@@ -9,7 +9,7 @@ body {
     background-color: #eaf3f8;
     background-image:
         linear-gradient(rgba(242, 248, 252, 0.36), rgba(232, 242, 249, 0.5)),
-        url("images/winter-background.jpg");
+        url("images/winter-background.min.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
