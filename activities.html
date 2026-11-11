@@ -7,6 +7,8 @@
     <link rel="preload" as="image" href="images/activities.min.jpg" fetchpriority="high" />
     <link rel="preload" as="style" href="styles.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preload" as="image" href="images/activities.mobile.jpg" media="(max-width: 700px)" fetchpriority="high" />
+    <link rel="preload" as="image" href="images/activities.jpg" media="(min-width: 701px)" fetchpriority="high" />
     <link rel="icon" type="image/png" href="images/logo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +19,7 @@
    <div class="navbar">
 
     <a href="index.html" class="logo">
-        <img src="images/logo.png" alt="Winter Activities" width="512" height="512">
+        <img src="images/logo-small.png" alt="Winter Activities" width="128" height="128">
     </a>
 
     <div class="nav-links">
@@ -29,7 +31,7 @@
   </div>
 
     <section class="hero">
-      <img src="images/activities.jpg" alt="Activities" fetchpriority="high" decoding="async" />
+      <picture><source media="(max-width: 700px)" srcset="images/activities.mobile.jpg"><img src="images/activities.jpg" alt="Activities" fetchpriority="high" decoding="async" width="1920" height="1080" /></picture>
       <div class="hero-overlay"></div>
 
       <div class="hero-content">
@@ -43,7 +45,7 @@
     <div class="footer-content">
 
         <div class="footer-logo">
-            <img src="images/logo.png" alt="Winter Activities" width="512" height="512" loading="lazy" decoding="async">
+            <img src="images/logo-small.png" alt="Winter Activities" width="128" height="128" loading="lazy" decoding="async">
             <p>Explore winter. Create memories.</p>
         </div>
 
